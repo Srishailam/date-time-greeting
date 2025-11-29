@@ -39,7 +39,7 @@ A Chrome extension that displays the current date, time, personalized greeting, 
 
 ### Step 3: Load the Extension
 1. Click the **"Load unpacked"** button (appears after enabling Developer mode)
-2. Navigate to this folder: `/Users/srishailam.dasari/Documents/Sri/date_time_greeting_extension`
+2. Navigate to this folder: `/date_time_greeting_extension`
 3. Select the folder and click **"Select"** or **"Open"**
 
 ### Step 4: If Extension Was Previously Loaded
