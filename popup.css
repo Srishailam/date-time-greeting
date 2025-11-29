@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-width: 300px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.container {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.greeting {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.time {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.date {
+  font-size: 16px;
+  opacity: 0.9;
+  font-weight: 400;
+}
