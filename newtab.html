@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Tab - Date Time Greeting</title>
+    <link rel="stylesheet" href="newtab.css">
+</head>
+<body>
+    <div class="container">
+        <div class="greeting-section">
+            <h1 id="greeting">Good Morning!</h1>
+            <div class="emoji" id="emoji">🌅</div>
+        </div>
+        
+        <div class="time-section">
+            <div class="time" id="time">12:00:00 PM</div>
+        </div>
+        
+        <div class="date-section">
+            <div class="day" id="day">Monday</div>
+            <div class="date" id="date">January 1, 2024</div>
+        </div>
+
+        <div class="weather-section" id="weatherSection">
+            <div class="temp-toggle">
+                <button class="temp-toggle-btn active" id="toggleF">°F</button>
+                <button class="temp-toggle-btn" id="toggleC">°C</button>
+            </div>
+            <div class="weather-loading" id="weatherLoading">
+                <div class="loading-spinner">🌍</div>
+                <div class="loading-text">Getting your location...</div>
+            </div>
+            <div class="weather-content" id="weatherContent" style="display: none;">
+                <div class="location-info">
+                    <span class="location-icon">📍</span>
+                    <span class="location-name" id="location">Your Location</span>
+                </div>
+                <div class="weather-main">
+                    <div class="weather-icon" id="weatherIcon">🌤️</div>
+                    <div class="temperature" id="temperature">--°</div>
+                </div>
+                <div class="weather-description" id="weatherDescription">Loading weather...</div>
+                <div class="weather-details">
+                    <span class="detail-item">
+                        <span class="detail-icon">💧</span>
+                        <span id="humidity">--</span>% Humidity
+                    </span>
+                    <span class="detail-item">
+                        <span class="detail-icon">💨</span>
+                        <span id="windSpeed">--</span> km/h Wind
+                    </span>
+                </div>
+            </div>
+            <div class="weather-error" id="weatherError" style="display: none;">
+                <div class="error-icon">⚠️</div>
+                <div class="error-text">Unable to fetch weather data</div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="config.js"></script>
+    <script src="newtab.js"></script>
+</body>
+</html>
+
