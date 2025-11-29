@@ -77,8 +77,6 @@ Optional: Edit `config.js` to customize:
 - `newtab.css` - Full-screen styling and animations
 - `newtab.js` - Logic for time, date, greetings, and weather
 - `README.md` - This file
-- `PUBLISHING_GUIDE.md` - How to publish to Chrome Web Store
-- `PRIVACY_POLICY.md` - Privacy policy for the extension
 
 ## How It Works
 
